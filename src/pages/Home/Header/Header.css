@@ -1,0 +1,13 @@
+
+.porfolio-container{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+font-family: 'Lora', serif;
+}
+.image-container img{
+    width: 60%;
+}
+.highlighted-text{
+    color: orangered;
+    
+}

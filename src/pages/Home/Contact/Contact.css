@@ -1,0 +1,9 @@
+.contact-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url("https://image.freepik.com/free-vector/blue-business-background-with-blocks_53876-100595.jpg");
+    background-repeat: no-repeat;
+    height: 600;
+    background-size: cover;
+    padding: 5%;
+}
