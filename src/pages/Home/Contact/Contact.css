@@ -1,9 +1,15 @@
 .contact-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-image: url("https://image.freepik.com/free-vector/blue-business-background-with-blocks_53876-100595.jpg");
+    /* background-image: url("https://image.freepik.com/free-vector/blue-business-background-with-blocks_53876-100595.jpg"); */
+    background-image: url("https://image.shutterstock.com/image-vector/vector-white-ball-abstract-background-260nw-1728421882.jpg");
+
     background-repeat: no-repeat;
     height: 600;
     background-size: cover;
     padding: 5%;
+}
+.contact-reace{
+    text-shadow: 2px 1px 1px rgb(153, 64, 12);
+    color: rgb(250, 115, 25);
 }

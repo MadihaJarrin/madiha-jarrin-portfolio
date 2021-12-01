@@ -8,15 +8,19 @@ import Project from '../Project/Project';
 import Skills from '../Skills/Skills';
 
 const Home = () => {
+
+
+
+
     return (
-        <div>
+        <div id="home">
             <Navigation></Navigation>
             <Header></Header>
             <About></About>
             <Skills></Skills>
             <Project></Project>
             <Contact></Contact>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
 
         </div>
     );

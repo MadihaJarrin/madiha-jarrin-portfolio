@@ -5,7 +5,7 @@ grid-template-columns: repeat(2, 1fr);
 font-family: 'Lora', serif;
 }
 .image-container img{
-    width: 60%;
+    width: 80%;
 }
 .highlighted-text{
     color: orangered;

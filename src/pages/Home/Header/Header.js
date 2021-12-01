@@ -9,7 +9,7 @@ import "./Header.css";
 const Header = () => {
     return (
         <div className='porfolio-container p-5 m-5 '>
-            <div className='portfolio-parent'>
+            <div className='portfolio-parent '>
                 {/* <div className='portfolio-details'>
                     <a href="#" >
                         <i className='fa fa-facebook-square'></i>
@@ -25,11 +25,22 @@ const Header = () => {
                     </a>
                 </div> */}
 
-                <div className="profile-details-name position-absolute bottom-50 end-50">
-                    <h2> Hey There!! I'm <span className="highlighted-text fs-1 fw-bold">Madiha Jarrin</span></h2>
-                    <h6 >Mainly I am MERN Stack Developer. I'm ready to work hard for the success of my career. I also like to learn new things .</h6>
-                    <a href="https://drive.google.com/drive/folders/1hYsG11cWfC4Lmcnw3n2xPSxy8LEOPkWP"> <button type="button" class="btn btn-success">Download Resume</button></a>
-                    <button type="button" class="btn btn-outline-success">Hire Me</button>
+                <div className="profile-details-name position-absolute bottom-50 end-50 ps-5 ">
+                    <div className="pt-5">
+                        <h2 className="pt-5"> Hey There!! I'm <span className="highlighted-text fs-1 fw-bold ">Madiha Jarrin</span></h2>
+                        <h6 >Mainly I am MERN Stack Developer. I'm ready to work hard for the success of my career. I also like to learn new things .</h6>
+                    </div>
+                    <div className="d-flex justify-content-center ">
+                        <div className=" p-2 ">
+                            <a href="https://drive.google.com/file/d/16pvURhThPeTfNXX47AXzJlrXu0b-v7aj/view"> <button type="button" class="btn btn-success">Download Resume</button></a>
+                        </div>
+                        <div className="p-2 ">
+                            <a href="https://drive.google.com/file/d/16pvURhThPeTfNXX47AXzJlrXu0b-v7aj/view"> <button type="button" class="btn btn-outline-success">Hire Me</button></a>
+                        </div>
+                    </div>
+
+
+                    {/* https://drive.google.com/u/0/uc?id=1iT_njyWXG_p4BuXxxwcJPQrbfjczRTku&export=download */}
                 </div>
             </div>
             <div className="image-container ">
